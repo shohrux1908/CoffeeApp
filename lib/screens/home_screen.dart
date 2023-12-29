@@ -96,6 +96,21 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                 ),
               ),
 
+              TabBar(tabs: [
+                Tab(text: "Hot Coffee"),
+                Tab(text: "Hot Coffee"),
+                Tab(text: "Hot Coffee"),
+                Tab(text: "Hot Coffee"),
+              ]),
+              SizedBox(height:10),
+              Center(
+                child:
+                  Container(color: Colors.red,),
+                  Container(color: Colors.red,),
+                  Container(color: Colors.red,),
+                  Container(color: Colors.red,),
+                 ,
+              )
             ],
 
 
